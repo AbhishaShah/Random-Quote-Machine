@@ -1,0 +1,35 @@
+.RandomQuoteBox {
+  border: 2px solid white;
+  border-radius: 15px;
+  margin: 150px auto;
+  height: auto;
+  width: 500px;
+  overflow: visible;
+  text-align: center;
+  background-color: white;
+  padding: 5px;
+}
+
+#RandomQuoteBox:hover {
+  background-color: yellow;
+}
+#text {
+  font-size: 25px;
+  font-weight: bold;
+}
+#author {
+  margin-top: 20px;
+  margin-left: 250px;
+}
+
+#tweet-quote,
+#new-quote {
+  border: none;
+  margin: 15px;
+}
+#new-quote {
+  margin-left: 200px;
+}
+#new-quote:hover {
+  border: none;
+}
